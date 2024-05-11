@@ -3,27 +3,30 @@ import { MdOutlinePersonOutline } from "react-icons/md";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 import { PiSuitcaseSimpleLight } from "react-icons/pi";
 import { RiContactsLine } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 function Navbar() {
-    const optionClass = 'xs:p-2 xs:mx-0 lg:p-3 xl:p-4 rounded-xl lg:mx-2 bg-slate-50 hover:bg-gradient-to-r from-[#B2FFD4] to-[#33F58D] flex flex-col items-center cursor-pointer'
-    const iconClass = 'xs:text-sm md:text-xl lg:text-2xl xl:text-3xl'
-    const titleStyle = "xs:text-sm lg:text-lg"
+    const optionClass = 'xs:p-2 xs:mx-0 lg:p-3 py-2 px-4 rounded-lg lg:mx-2 bg-slate-100 hover:bg-[#85FFBD] flex flex-col items-center cursor-pointer my-2'
+    const iconClass = 'xs:text-sm md:text-xl'
+    const titleStyle = "xs:text-sm lg:text-md"
   return (
     <nav className='flex lg:justify-end xs:justify-between'>
-        <div className={optionClass}>
-            <MdOutlinePersonOutline className={iconClass}/>
-            <div className={titleStyle}>About</div>
-        </div>
-        <div className={optionClass}>
-            <HiOutlineClipboardDocumentList className={iconClass}/>
-            <div className={titleStyle}>Resume</div>
-        </div>
-        <div className={optionClass}>
-            <PiSuitcaseSimpleLight className={iconClass}/>
-            <div className={titleStyle}>Works</div>
-        </div>
-        <div className={optionClass}>
-            <RiContactsLine className={iconClass}/>
-            <div className={titleStyle}>Contact</div>
+        <div className='bg-white flex rounded-lg xs:w-full justify-around lg:w-max'>
+            <Link to={"/"} className={optionClass}>
+                <MdOutlinePersonOutline className={iconClass}/>
+                <div className={titleStyle}>About</div>
+            </Link>
+            <Link to={"/resume"} className={optionClass}>
+                <HiOutlineClipboardDocumentList className={iconClass}/>
+                <div className={titleStyle}>Resume</div>
+            </Link>
+            <Link to={"/works"} className={optionClass}>
+                <PiSuitcaseSimpleLight className={iconClass}/>
+                <div className={titleStyle}>Works</div>
+            </Link>
+            <Link to={"/contact"} className={optionClass}>
+                <RiContactsLine className={iconClass}/>
+                <div className={titleStyle}>Contact</div>
+            </Link>
         </div>
     </nav>
   )

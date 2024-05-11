@@ -3,11 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Sidebar from './Components/Sidebar/Sidebar';
+import Navbar from './Components/Navbar/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>About</div>}/>
+  },
+  {
+    path: "/resume",
+    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>Resume</div>}/>
+  },
+  {
+    path: "/works",
+    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>Works</div>}/>
+  },
+  {
+    path: "/contact",
+    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>contact</div>}/>
+  }
+
+]);
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

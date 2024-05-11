@@ -49,7 +49,7 @@ function Sidebar() {
         },
         {
             detail: "Location",
-            value: "Bengaluru, India",
+            value: "Banglore, India",
             icon: <CiLocationOn/>,
         },
         {
@@ -74,15 +74,15 @@ function Sidebar() {
             </p>
             <ul className='sm:flex sm:justify-around text-2xl text-center sm:mt-6 sm:mb-12 xs:grid xs:grid-cols-2 xs:gap-2 xs:mt-4 xs:mb-6'>
                 {links.map(link => (
-                    <a href={link.link} className={link.color}>
+                    <a key={link.name} href={link.link} className={link.color}>
                         {link.icon}
                     </a>
                 ))}
             </ul>
         </div>
-        <div className='text-left w-4/5 mx-auto my-6'>
+        <div className='text-left w-4/5 mx-auto'>
             {details.map(detail => (
-                <div className='px-2 bg-slate-100 my-2 py-2 flex rounded-lg items-center sm:w-full xs:w-full'>
+                <div key={detail.detail} className='px-2 bg-slate-100 my-2 py-2 flex rounded-lg items-center sm:w-full xs:w-full'>
                     <div className='md:text-2xl lg:text-2xl xl:text-3xl font-thin pr-2 lg:block md:hidden xs:hidden sm:hidden'>
                         {detail.icon}
                     </div>
