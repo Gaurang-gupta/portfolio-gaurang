@@ -1,26 +1,5 @@
 import React from 'react'
 
-// function WorkingSkills({skill, percentage, color}) {
-//     const colors = {
-//         "pink": "#c87879",
-//         "purple": "#8f81aa",
-//         "blue": "#5e87b7",
-//         "magenta": "#ab69c3",
-//     }
-//     const width = `[${percentage}]`
-//   return (
-//     <div className='w-[100%]'>
-//         <h1>{skill}</h1>
-//         <div className='h-1 w-full bg-slate-500'>
-//             <div className={`w-${width} bg-[${colors[color]}] h-1`}></div>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default WorkingSkills
-
-
 const WorkingSkills = ({ skill, percentage, color }) => {
     const colors = {
         "pink": "#c87879",

@@ -10,7 +10,7 @@ function Navbar() {
     const titleStyle = "xs:text-sm lg:text-md"
   return (
     <nav className='flex lg:justify-end xs:justify-between'>
-        <div className='bg-white flex rounded-lg xs:w-full justify-around lg:w-max'>
+        <div className='bg-white flex rounded-lg xs:w-full justify-around lg:w-max px-4 py-2'>
             <Link to={"/"} className={optionClass}>
                 <MdOutlinePersonOutline className={iconClass}/>
                 <div className={titleStyle}>About</div>

@@ -4,28 +4,33 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Sidebar from './Components/Sidebar/Sidebar';
-import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
 import Resume from './Components/Resume/Resume';
+import Works from './Components/Works/Works';
+import Project from './Components/Project/Project';
+import Contact from './Components/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<About/>}/>
+    element: <App main={<About/>}/>
   },
   {
     path: "/resume",
-    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<Resume/>}/>
+    element: <App main={<Resume/>}/>
   },
   {
     path: "/works",
-    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>Works</div>}/>
+    element: <App main={<Works/>}/>
   },
   {
     path: "/contact",
-    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>contact</div>}/>
+    element: <App main={<Contact/>}/>
+  },
+  {
+    path: "/works/:id",
+    element: <App main={<Project id={window.location.pathname}/>}/>
   }
 
 ]);

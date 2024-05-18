@@ -12,7 +12,7 @@ function Sidebar() {
     const links = [
         {
             name: "instagram",
-            link: "",
+            link: "https://www.instagram.com/gauranggupta62/",
             color: "mx-auto text-pink-500 md:text-lg lg:text-xl xl:text-2xl",
             icon: <FaSquareInstagram/>
         },

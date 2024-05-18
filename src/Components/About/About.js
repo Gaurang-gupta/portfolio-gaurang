@@ -37,8 +37,8 @@ function About() {
             <div className='xs:hidden sm:block sm:w-[50%] h-[1px] ml-8 styleHeading'></div>
         </h2>
         <div className='grid xs:grid-cols-1 sm:grid-cols-2 gap-4'>
-            {whatIDo.map(item => (
-                <div className='bg-slate-100 p-4 rounded-xl'>
+            {whatIDo.map((item, index) => (
+                <div key={index} className='bg-slate-100 p-4 rounded-xl'>
                     <h3 className='text-xl font-semibold mb-3'>{item.title}</h3>
                     <p className='text-sm'>{item.desc}</p>
                 </div>
