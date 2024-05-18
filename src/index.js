@@ -6,16 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Sidebar from './Components/Sidebar/Sidebar';
 import Navbar from './Components/Navbar/Navbar';
+import About from './Components/About/About';
+import Resume from './Components/Resume/Resume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>About</div>}/>
+    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<About/>}/>
   },
   {
     path: "/resume",
-    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<div>Resume</div>}/>
+    element: <App sidebar={<Sidebar/>} navbar={<Navbar/>} main={<Resume/>}/>
   },
   {
     path: "/works",

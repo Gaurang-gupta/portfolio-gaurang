@@ -18,7 +18,7 @@ function Sidebar() {
         },
         {
             name: "linkedin",
-            link: "",
+            link: "https://www.linkedin.com/in/gaurang-gupta-a283141b0/",
             color: "mx-auto text-blue-500 md:text-lg lg:text-xl xl:text-2xl",
             icon: <FaLinkedin/>
         },
@@ -49,7 +49,7 @@ function Sidebar() {
         },
         {
             detail: "Location",
-            value: "Banglore, India",
+            value: "Bangalore, India",
             icon: <CiLocationOn/>,
         },
         {
@@ -59,7 +59,7 @@ function Sidebar() {
         },
     ]
   return (
-    <div className='lg:w-1/3 xl:w-1/4 lg:block xs:w-4/5 xs:mx-auto text-wrap'>
+    <div className='lg:w-1/3 xl:w-1/4 lg:block xs:w-[90%] xs:mx-auto text-wrap'>
     <aside className='mt-[2rem] lg:pt-6 pb-2 bg-slate-50 text-center rounded-xl xs:flex lg:block xs:items-center xs:pt-0 xs:px-4 lg:px-0'>
         <div className='xs:hidden w-3/5 xs:h-3/5 lg:h-full mx-auto shadow-lg rounded-xl object-contain sm:block'>
             <img src="https://avatars.githubusercontent.com/u/65450469?s=400&u=1d2375c5b685208b1e694244eedd3a257c1885 6c&v=4"
