@@ -43,7 +43,7 @@ function Works() {
                 <Link to={`/works/${cat.name}`} className="rounded-3xl p-px bg-gradient-to-b from-[#85FFBD] to-[#FFFB7D] cursor-pointer">
                     <div className="bg-gray-50 p-10 rounded-[calc(1.5rem-1px)] flex flex-col items-center">
                         <img className="h-12 w-12 object-contain block" src={cat.image} alt={cat.alt} />
-                        <h3 className="text-lg font-medium text-gray-700 dark:text-white">{cat.name}</h3>
+                        <h3 className="text-lg font-medium text-gray-700">{cat.name}</h3>
                     </div>
                 </Link>
             ))}
