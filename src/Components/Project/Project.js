@@ -1,12 +1,17 @@
 import React from 'react'
 import projects from "../../data/data.json"
 import ProjectCard from '../../utils/ProjectCard/ProjectCard'
+import { Link } from 'react-router-dom'
+import { IoMdArrowBack } from "react-icons/io";
 
 function Project() {
   const path = window.location.pathname.split("/")
   const projectsData = projects[path[2]]
   return (
     <main className='xl:px-12 xl:py-10 xs:px-8 xs:py-6 text-justify w-full'>
+      <Link to={"/works"} className='flex items-center text-2xl pb-2'>
+        <IoMdArrowBack/>
+      </Link>
       <h1 className='text-4xl font-bold pb-4 flex items-center'>
         {path[2]} Projects <div className='xs:hidden sm:block w-[50%] h-[1px] ml-8 styleHeading'></div>
       </h1>

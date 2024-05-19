@@ -25,5 +25,30 @@
             "github": "https://github.com/Gaurang-gupta/google-clone",
             "deployment": "https://google-clone-chi-six.vercel.app/"
         }
+    ],
+    "ML": [
+        {
+            "id": "1",
+            "name": "Android Malware Prediction",
+            "summary": "The project developed a machine learning model to predict if an Android app is malicious using a CSV file with various features. Data preprocessing included cleaning, normalization, and feature engineering, followed by exploratory analysis. Several algorithms (Logistic Regression, Decision Trees, Random Forest, SVM, KNN, Gradient Boosting, Neural Networks) were tested and evaluated using accuracy, precision, recall, F1-score, and ROC-AUC. The Random Forest model performed best, effectively balancing precision and recall. The project successfully identified a reliable malware prediction model, with future work suggested to explore additional features and deep learning methods for improvement.",
+            "github": "",
+            "deployment": "https://www.kaggle.com/code/gauranggupta123/android-malware-prediction-with-accuracy-99"
+        },
+        {
+            "id": "2",
+            "name": "Heart Disease Prediction",
+            "summary": "The project aimed to develop a machine learning model to predict heart disease using a CSV file with various health parameters. Data preprocessing included cleaning, handling missing values, and normalization. Exploratory data analysis was conducted to understand feature distributions and correlations. Several models, including Logistic Regression, Decision Trees, Random Forest, SVM, KNN, Gradient Boosting, and Neural Networks, were tested. Models were evaluated using accuracy, precision, recall, F1-score, and ROC-AUC. The best-performing model was identified based on these metrics. The project successfully created a reliable heart disease prediction model, with potential for future improvements using advanced techniques and additional features.",
+            "github": "",
+            "deployment": "https://www.kaggle.com/code/gauranggupta123/heart-disease-prediction-using-different-models"
+        }
+    ],
+    "Tensorflow": [
+        {
+            "id": "1",
+            "name": "Plants Classification",
+            "summary":"The project aimed to classify plant species using image data. A custom convolutional neural network (CNN) was built with TensorFlow and trained on a preprocessed dataset of plant images, including resizing, normalization, and data augmentation. The model's performance was compared with pre-trained models available in Keras, such as VGG16, ResNet50, and InceptionV3. Evaluation metrics included accuracy and loss. The project successfully developed a custom plant classification model and provided a comparative analysis with Keras models, highlighting the custom model's effectiveness and areas for improvement.",
+            "github": "",
+            "deployment": "https://www.kaggle.com/code/gauranggupta123/plants-classification"
+        }
     ]
 }
