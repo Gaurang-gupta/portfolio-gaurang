@@ -30,7 +30,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/works/:id",
-    element: <App main={<Project id={window.location.pathname}/>}/>
+    element: <App main={<Project/>}/>
   }
 
 ]);

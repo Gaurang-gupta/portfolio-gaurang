@@ -13,6 +13,12 @@ function Works() {
             name: "React",
             image: "./React_icon.png",
             alt: "React"
+        },
+        {
+            id: "3",
+            name: "Next",
+            image: "./nextjs_image.svg",
+            alt: "Next"
         }
     ]
   return (

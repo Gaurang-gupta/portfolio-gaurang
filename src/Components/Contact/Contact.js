@@ -3,6 +3,8 @@ import React from 'react'
 function Contact() {
     const divStyle = "w-full flex flex-col pb-7"
     const inputStyle = "border-b-2 outline-0"
+
+    
   return (
     <div className='xl:px-12 xl:py-10 xs:px-8 xs:py-6 text-justify w-full'>
         <h1 className='text-4xl font-bold pb-4 flex items-center'>

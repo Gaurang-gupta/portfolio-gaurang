@@ -1,0 +1,29 @@
+{
+    "Java": [
+        {
+            "id": "1",
+            "name": "Notepad clone",
+            "summary": "I built a Notepad clone using Java Swing. This project replicates the basic functionality of the classic Notepad application, allowing users to create, edit, and save text files. With a simple and intuitive interface, it offers essential features like cut, copy, paste, and undo, all implemented using Java Swing components for a smooth and responsive user experience.",
+            "github": "https://github.com/Gaurang-gupta/NotepadClone",
+            "deployment": ""
+        }
+    ],
+    "React": [
+        {
+            "id": "1",
+            "name": "Disney Clone",
+            "summary": "I recently completed a project where I created a Disney+ clone using ReactJS. To handle user authentication, I integrated Google Authenticator, which is provided by Firebase. And guess what? I hosted the entire website using Firebase services! 🚀 \n ✨👨‍💻 Feel free to tweak it or add your personal touch to it!😊",
+            "github": "https://github.com/Gaurang-gupta/Disney-clone",
+            "deployment": "https://disney-clone-f3e0d.web.app/"
+        }
+    ],
+    "Next": [
+        {
+            "id": "1",
+            "name": "Google Search Engine Clone",
+            "summary": "I created a Google search engine clone using the Google Search API, built with Next.js and styled with Tailwind CSS. This project replicates Google's search functionality, providing fast, server-rendered results and a sleek, responsive design.",
+            "github": "https://github.com/Gaurang-gupta/google-clone",
+            "deployment": "https://google-clone-chi-six.vercel.app/"
+        }
+    ]
+}
