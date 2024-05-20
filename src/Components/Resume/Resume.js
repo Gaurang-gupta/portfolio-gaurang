@@ -58,7 +58,7 @@ function Resume() {
     const knowledges = [
         "HTML", "CSS", "Javascript",
         "ReactJS", "Firebase", "Python",
-        "Sklearn", "Tensorflow", "Java"
+        "Sklearn", "Tensorflow", "Java", "Machine Learning",
     ]
   return (
     <div className='xl:px-12 xl:py-10 xs:px-8 xs:py-6 text-justify w-full'>

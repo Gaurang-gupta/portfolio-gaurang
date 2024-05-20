@@ -26,7 +26,7 @@ function About() {
             About <div className='w-[50%] h-[1px] ml-8 styleHeading'></div>
         </h1>
         <p className={paraClass}>
-            Hi there! I'm Gaurang Gupta, a tech enthusiast specializing in web development, education, and Android app creation with three years of experience. Currently at Samsung R&D Institute in Bangalore, India, I contribute to cutting-edge projects. 
+            Hi there! I'm Gaurang Gupta, a tech enthusiast specializing in web development, education, and Android app creation with three years of experience. Currently at Samsung R&D Institute in Bangalore, India, I contribute to big data projects. 
         </p>
         <p className={paraClass}>
             Passionate about education, I share my expertise through engaging lectures. With a Bachelor's in Electronics and Communication Engineering, I'm committed to pushing tech boundaries. Let's innovate together!

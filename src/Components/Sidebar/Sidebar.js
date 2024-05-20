@@ -1,11 +1,9 @@
 import React from 'react'
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
-import { 
-    CiMobile2, 
+import {
     CiMail, 
-    CiLocationOn,
-    CiCalendarDate
+    CiLocationOn
 } from "react-icons/ci";
 
 function Sidebar() {
@@ -38,11 +36,6 @@ function Sidebar() {
 
     const details = [
         {
-            detail: "Phone",
-            value: "+917009154124",
-            icon: <CiMobile2 />,
-        },
-        {
             detail: "Email",
             value: "g12172001@gmail.com",
             icon: <CiMail/>,
@@ -51,11 +44,6 @@ function Sidebar() {
             detail: "Location",
             value: "Bangalore, India",
             icon: <CiLocationOn/>,
-        },
-        {
-            detail: "Birthday",
-            value: "Dec 17, 2001",
-            icon: <CiCalendarDate/>,
         },
     ]
   return (
