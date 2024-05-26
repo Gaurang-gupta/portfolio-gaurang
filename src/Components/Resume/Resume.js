@@ -56,7 +56,7 @@ function Resume() {
     ]
 
     const knowledges = [
-        "HTML", "CSS", "Javascript",
+        "HTML", "CSS", "Javascript", "git",
         "ReactJS", "Firebase", "Python",
         "Sklearn", "Tensorflow", "Java", "Machine Learning",
     ]

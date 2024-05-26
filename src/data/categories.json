@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "name": "Java",
+            "image": "./java_image.png",
+            "alt": "Java"
+        },
+        {
+            "id": "2",
+            "name": "React",
+            "image": "./React_icon.png",
+            "alt": "React"
+        },
+        {
+            "id": "3",
+            "name": "Next",
+            "image": "./nextjs_image.svg",
+            "alt": "Next"
+        },
+        {
+            "id": "4",
+            "name": "ML",
+            "image": "./machineLearning.jpg",
+            "alt": "ML"
+        },
+        {
+            "id": "5",
+            "name": "Tensorflow",
+            "image": "./tensorflow.png",
+            "alt": "tensorflow"
+        },
+        {
+            "id": "6",
+            "name": "Optimization_Algorithms",
+            "image": "./OptimizationAlgorithm.jpg",
+            "alt": "Optimization_Algorithms"
+        }
+    ]
+}

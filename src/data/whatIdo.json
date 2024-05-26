@@ -1,0 +1,20 @@
+{
+    "whatIDo": [
+        {
+            "title": "IIT/JEE classes",
+            "desc": "Hey there! I specialize in IIT/JEE coaching. It's all about guiding students towards acing those tough exams. We focus on deep understanding and strategic preparation. Got questions? Fire away!"
+        },
+        {
+            "title": "Machine Learning classes",
+            "desc": "Hey, I'm your go-to for machine learning coaching! Let's dive into the world of algorithms, data, and models. Whether you're a beginner or looking to fine-tune your skills, I've got you covered. Ready to unlock the potential of AI? Let's get started!"
+        },
+        {
+            "title": "Web Development",
+            "desc": "Hey, I'm your friendly neighborhood web developer! From crafting sleek designs to coding dynamic websites, I'm all about bringing your online vision to life. Let's chat about your project goals and how we can make your web presence shine. Ready to elevate your online game?"
+        },
+        {
+            "title": "App Development",
+            "desc": "Hey there! I'm your go-to app developer, passionate about turning ideas into innovative digital experiences. Whether it's iOS, Android, or cross-platform, I've got the skills to bring your app vision to reality. Let's brainstorm features, design sleek interfaces, and launch your app to the world!"
+        }
+    ]
+}

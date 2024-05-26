@@ -15,6 +15,13 @@
             "summary": "I recently completed a project where I created a Disney+ clone using ReactJS. To handle user authentication, I integrated Google Authenticator, which is provided by Firebase. And guess what? I hosted the entire website using Firebase services! 🚀 \n ✨👨‍💻 Feel free to tweak it or add your personal touch to it!😊",
             "github": "https://github.com/Gaurang-gupta/Disney-clone",
             "deployment": "https://disney-clone-f3e0d.web.app/"
+        },
+        {
+            "id": "2",
+            "name": "Netflix Clone",
+            "summary": "I created a Netflix clone using the React library. The application employs Firebase for authentication and Firestore to manage and store user data, including watchlists and favorites. This setup ensures a seamless user experience with secure authentication and efficient data management for personalized content tracking.",
+            "github": "https://github.com/Gaurang-gupta/netflix-clone",
+            "deployment": "https://netflix-clone-7a9e5.web.app"
         }
     ],
     "Next": [
@@ -24,6 +31,20 @@
             "summary": "I created a Google search engine clone using the Google Search API, built with Next.js and styled with Tailwind CSS. This project replicates Google's search functionality, providing fast, server-rendered results and a sleek, responsive design.",
             "github": "https://github.com/Gaurang-gupta/google-clone",
             "deployment": "https://google-clone-chi-six.vercel.app/"
+        },
+        {
+            "id": "2",
+            "name": "Uber Clone",
+            "summary": "I crafted an Uber clone using Next.js, incorporating Firebase for authentication and Mapbox for mapping features. This integration ensures secure user authentication while providing a seamless navigation experience with dynamic mapping functionality. The result is a reliable platform for efficient transportation services, built on modern web technologies.",
+            "github": "https://github.com/Gaurang-gupta/Uber-clone",
+            "deployment": "https://uber-clone-lyart-five.vercel.app/"
+        },
+        {
+            "id": "3",
+            "name": "Airbnb Clone",
+            "summary": "I developed an Airbnb clone using the Next.js framework, integrating detailed search functionality and a dynamic map feature. Leveraging Next.js ensures optimized performance, while the inclusion of a comprehensive search capability and interactive map enhances user experience, providing a robust platform for accommodation discovery and booking.",
+            "github": "https://github.com/Gaurang-gupta/Airbnb-clone",
+            "deployment": "https://airbnb-clone-flame-beta.vercel.app/"
         }
     ],
     "ML": [
@@ -40,6 +61,13 @@
             "summary": "The project aimed to develop a machine learning model to predict heart disease using a CSV file with various health parameters. Data preprocessing included cleaning, handling missing values, and normalization. Exploratory data analysis was conducted to understand feature distributions and correlations. Several models, including Logistic Regression, Decision Trees, Random Forest, SVM, KNN, Gradient Boosting, and Neural Networks, were tested. Models were evaluated using accuracy, precision, recall, F1-score, and ROC-AUC. The best-performing model was identified based on these metrics. The project successfully created a reliable heart disease prediction model, with potential for future improvements using advanced techniques and additional features.",
             "github": "",
             "deployment": "https://www.kaggle.com/code/gauranggupta123/heart-disease-prediction-using-different-models"
+        },
+        {
+            "id": "3",
+            "name": "Car Price Prediction",
+            "summary": "The code predicts car prices using multiple machine learning models, including linear regression, decision trees, and random forests. After evaluating their performance, the best-performing model is identified and further optimized for accuracy. This approach ensures the selection of the most effective model for precise car price prediction.",
+            "github": "",
+            "deployment": "https://www.kaggle.com/code/gauranggupta123/car-price-prediction"
         }
     ],
     "Tensorflow": [
@@ -49,6 +77,22 @@
             "summary":"The project aimed to classify plant species using image data. A custom convolutional neural network (CNN) was built with TensorFlow and trained on a preprocessed dataset of plant images, including resizing, normalization, and data augmentation. The model's performance was compared with pre-trained models available in Keras, such as VGG16, ResNet50, and InceptionV3. Evaluation metrics included accuracy and loss. The project successfully developed a custom plant classification model and provided a comparative analysis with Keras models, highlighting the custom model's effectiveness and areas for improvement.",
             "github": "",
             "deployment": "https://www.kaggle.com/code/gauranggupta123/plants-classification"
+        }
+    ],
+    "Optimization_Algorithms": [
+        {
+            "id": "1",
+            "name": "Energy Efficient Routing using CSO",
+            "summary":"This code implements the Chicken Swarm Optimization (CSO) algorithm to achieve energy-efficient routing in a wireless sensor network (WSN) with 50 nodes and a star topology. The nodes are initialized with random positions and velocities around a central base station. The objective is to minimize the total energy consumption, modeled as proportional to the square of the distance from each node to the base station. The CSO algorithm iteratively updates node positions and velocities to find the optimal configuration. The best node positions and energy consumption are tracked and visualized, demonstrating the effectiveness of CSO in optimizing network energy efficiency.",
+            "github": "",
+            "deployment": "https://www.kaggle.com/code/gauranggupta123/cso-for-energy-efficient-routing"
+        },
+        {
+            "id": "2",
+            "name": "Node placement optimization using CSO",
+            "summary":"The provided code performs node placement optimization for a wireless sensor network (WSN) in a 2D marshland using the Chicken Swarm Optimization (CSO) algorithm. The network includes 50% underwater and 50% on-land nodes, with distinct energy parameters. The objective function calculates the total energy consumption based on node positions and communication requirements. The CSO algorithm iteratively updates node positions and cluster head locations to minimize energy consumption. The final node placement and cluster head positions are visualized in a scatter plot. The implementation effectively balances energy consumption and recharging capacities for efficient node deployment.",
+            "github": "",
+            "deployment": "https://www.kaggle.com/code/gauranggupta123/node-placement-optimization-using-cso"
         }
     ]
 }
