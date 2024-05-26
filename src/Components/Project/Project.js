@@ -12,7 +12,7 @@ function Project() {
       <Link to={"/works"} className='flex items-center text-2xl pb-2'>
         <IoMdArrowBack/>
       </Link>
-      <h1 className='text-4xl font-bold pb-4 flex items-center'>
+      <h1 className='sm:text-4xl font-bold pb-4 flex items-center xs:text-xl'>
         {path[2]} Projects <div className='xs:hidden sm:block w-[50%] h-[1px] ml-8 styleHeading'></div>
       </h1>
 
