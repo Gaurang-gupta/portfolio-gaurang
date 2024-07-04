@@ -6,6 +6,13 @@
             "summary": "I built a Notepad clone using Java Swing. This project replicates the basic functionality of the classic Notepad application, allowing users to create, edit, and save text files. With a simple and intuitive interface, it offers essential features like cut, copy, paste, and undo, all implemented using Java Swing components for a smooth and responsive user experience.",
             "github": "https://github.com/Gaurang-gupta/NotepadClone",
             "deployment": ""
+        },
+        {
+            "id": "2",
+            "name": "Java Blockchain: A Simple and Secure Ledger",
+            "summary": "\"Java Blockchain: A Simple and Secure Ledger\" is a basic blockchain implementation using Java. It includes classes for creating and managing blocks, adding transactions, and ensuring security with proof-of-work. This project demonstrates key blockchain concepts like security and immutability.",
+            "github": "https://github.com/Gaurang-gupta/BlockChain_made_using_Java/tree/main",
+            "deployment": ""
         }
     ],
     "React": [
