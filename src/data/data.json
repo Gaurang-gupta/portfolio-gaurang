@@ -29,6 +29,13 @@
             "summary": "I created a Netflix clone using the React library. The application employs Firebase for authentication and Firestore to manage and store user data, including watchlists and favorites. This setup ensures a seamless user experience with secure authentication and efficient data management for personalized content tracking.",
             "github": "https://github.com/Gaurang-gupta/netflix-clone",
             "deployment": "https://netflix-clone-7a9e5.web.app"
+        },
+        {
+            "id": "3",
+            "name": "Flashcard App",
+            "summary": "This flashcard app allows users to manage flashcards effectively. Features include creating and deleting questions, viewing a list of questions, and user authentication with Google for secure login and logout. It's designed to help users organize and study information efficiently.",
+            "github": "https://github.com/Gaurang-gupta/flash-card-app",
+            "deployment": "https://flash-card-app-pi.vercel.app/"
         }
     ],
     "Next": [
