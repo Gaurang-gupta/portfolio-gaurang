@@ -18,24 +18,31 @@
     "React": [
         {
             "id": "1",
-            "name": "Disney Clone",
-            "summary": "I recently completed a project where I created a Disney+ clone using ReactJS. To handle user authentication, I integrated Google Authenticator, which is provided by Firebase. And guess what? I hosted the entire website using Firebase services! 🚀 \n ✨👨‍💻 Feel free to tweak it or add your personal touch to it!😊",
-            "github": "https://github.com/Gaurang-gupta/Disney-clone",
-            "deployment": "https://disney-clone-f3e0d.web.app/"
+            "name": "Flashcard App",
+            "summary": "This flashcard app allows users to manage flashcards effectively. Features include creating and deleting questions, viewing a list of questions, and user authentication with Google for secure login and logout. It's designed to help users organize and study information efficiently.",
+            "github": "https://github.com/Gaurang-gupta/flash-card-app",
+            "deployment": "https://flash-card-app-pi.vercel.app/"
         },
         {
             "id": "2",
+            "name": "News App",
+            "summary": "Discover the latest headlines with our React.js and Tailwind-powered news app. Effortlessly search by keyword or category, powered by the Media Stack API, for personalized news on the go.",
+            "github": "https://github.com/Gaurang-gupta/news-app",
+            "deployment": "https://news-app-bay-sigma.vercel.app/"
+        },
+        {
+            "id": "3",
             "name": "Netflix Clone",
             "summary": "I created a Netflix clone using the React library. The application employs Firebase for authentication and Firestore to manage and store user data, including watchlists and favorites. This setup ensures a seamless user experience with secure authentication and efficient data management for personalized content tracking.",
             "github": "https://github.com/Gaurang-gupta/netflix-clone",
             "deployment": "https://netflix-clone-7a9e5.web.app"
         },
         {
-            "id": "3",
-            "name": "Flashcard App",
-            "summary": "This flashcard app allows users to manage flashcards effectively. Features include creating and deleting questions, viewing a list of questions, and user authentication with Google for secure login and logout. It's designed to help users organize and study information efficiently.",
-            "github": "https://github.com/Gaurang-gupta/flash-card-app",
-            "deployment": "https://flash-card-app-pi.vercel.app/"
+            "id": "4",
+            "name": "Disney Clone",
+            "summary": "I recently completed a project where I created a Disney+ clone using ReactJS. To handle user authentication, I integrated Google Authenticator, which is provided by Firebase. And guess what? I hosted the entire website using Firebase services! 🚀 \n ✨👨‍💻 Feel free to tweak it or add your personal touch to it!😊",
+            "github": "https://github.com/Gaurang-gupta/Disney-clone",
+            "deployment": "https://disney-clone-f3e0d.web.app/"
         }
     ],
     "Next": [
