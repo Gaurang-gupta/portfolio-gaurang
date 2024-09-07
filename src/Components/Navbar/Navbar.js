@@ -6,11 +6,11 @@ import { RiContactsLine } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 function Navbar() {
     const optionClass = 'xs:p-2 xs:mx-0 lg:p-3 py-2 px-4 rounded-lg lg:mx-2 bg-slate-100 hover:bg-[#85FFBD] flex flex-col items-center cursor-pointer my-2'
-    const iconClass = 'xs:text-sm md:text-xl'
-    const titleStyle = "xs:text-sm lg:text-md"
+    const iconClass = 'xs:text-sm sm:text-xl'
+    const titleStyle = "xs:text-sm sm:text-md"
   return (
     <nav className='flex lg:justify-end xs:justify-between'>
-        <div className='bg-white flex rounded-lg xs:w-full justify-around lg:w-max px-4 py-2'>
+        <div className='bg-white grid rounded-lg xs:w-full grid-cols-4 gap-8 xs:gap-4 lg:w-max px-4 py-2'>
             <Link to={"/"} className={optionClass}>
                 <MdOutlinePersonOutline className={iconClass}/>
                 <div className={titleStyle}>About</div>

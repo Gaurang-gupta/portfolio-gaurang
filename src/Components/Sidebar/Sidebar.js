@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaSquareInstagram } from "react-icons/fa6";
-import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaYoutube, FaGithub, FaKaggle } from "react-icons/fa";
 import {
     CiMail, 
     CiLocationOn
@@ -45,13 +45,18 @@ function Sidebar() {
             value: "Bangalore, India",
             icon: <CiLocationOn/>,
         },
+        {
+            detail: "Kaggle Profile",
+            value: "Gauranggupta123",
+            icon: <FaKaggle/>,
+        }
     ]
   return (
     <div className='lg:w-1/3 xl:w-1/4 lg:block xs:w-[90%] xs:mx-auto text-wrap'>
-    <aside className='mt-[2rem] lg:pt-6 pb-2 bg-slate-50 text-center rounded-xl xs:flex lg:block xs:items-center xs:pt-0 xs:px-4 lg:px-0'>
-        <div className='xs:hidden w-3/5 xs:h-3/5 lg:h-full mx-auto shadow-lg rounded-xl object-contain sm:block'>
+    <aside className='mt-[2rem] lg:pt-6 pb-2 bg-slate-50 text-center rounded-xl xs:flex lg:block xs:items-center pt-2 xs:px-4 lg:px-0'>
+        <div className='xs:hidden xs:w-3/5 md:w-2/5 lg:w-3/5 xs:h-3/5 md:h-3/5 lg:h-full mx-auto shadow-lg rounded-xl object-contain sm:block'>
             <img src="https://avatars.githubusercontent.com/u/65450469?s=400&u=1d2375c5b685208b1e694244eedd3a257c1885 6c&v=4"
-                className='rounded-xl h-full w-full object-cover' alt="developer"/>
+                className='rounded-xl h-[50%] w-full object-cover' alt="developer"/>
         </div>
         <div className='w-4/5 mx-auto xs:px-4 lg:px-0'>
             <p className='py-3 lg:text-2xl font-semibold sm:text-lg'>
