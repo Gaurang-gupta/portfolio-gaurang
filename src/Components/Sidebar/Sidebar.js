@@ -16,7 +16,7 @@ function Sidebar() {
         },
         {
             name: "linkedin",
-            link: "https://www.linkedin.com/in/gaurang-gupta-a283141b0/",
+            link: "https://www.linkedin.com/in/gaurang-gupta-bangalore/",
             color: "mx-auto text-blue-500 md:text-lg lg:text-xl xl:text-2xl",
             icon: <FaLinkedin/>
         },
