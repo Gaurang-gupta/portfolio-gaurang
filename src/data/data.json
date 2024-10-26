@@ -1,7 +1,7 @@
 {
     "Java": [
         {
-            "id": "1",
+            "id": "1", 
             "name": "Notepad clone",
             "summary": "I built a Notepad clone using Java Swing. This project replicates the basic functionality of the classic Notepad application, allowing users to create, edit, and save text files. With a simple and intuitive interface, it offers essential features like cut, copy, paste, and undo, all implemented using Java Swing components for a smooth and responsive user experience.",
             "github": "https://github.com/Gaurang-gupta/NotepadClone",
