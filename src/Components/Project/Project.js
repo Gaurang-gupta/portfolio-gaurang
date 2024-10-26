@@ -9,7 +9,7 @@ function Project() {
   const projectsData = projects[path[2]]
   return (
     <main className='xl:px-12 xl:pb-10 xs:px-8 xs:pb-6 text-justify w-full'>
-      <div className='sticky top-0 xl:pt-10 xs:pt-6 text-justify w-full bg-white'>
+      <div className='sticky top-0 xl:pt-10 xs:pt-6 text-justify w-full bg-slate-50'>
         <Link to={"/works"} className='flex items-center text-2xl pb-2'>
           <IoMdArrowBack/>
         </Link>
