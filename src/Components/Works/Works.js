@@ -5,7 +5,7 @@ function Works() {
   return (
     <div className='xl:px-12 xl:py-10 xs:px-8 xs:py-6 text-justify w-full'>
         <h1 className='text-4xl font-bold pb-4 flex items-center'>
-            Portfolio <div className='w-[50%] h-[1px] ml-8 styleHeading'></div>
+            Works <div className='w-[50%] h-[1px] ml-8 styleHeading'></div>
         </h1>
         <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 pt-4 gap-3'>
             {categoriesObject?.categories?.map(cat => (
