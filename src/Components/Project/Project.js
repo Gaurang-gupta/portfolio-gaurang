@@ -16,7 +16,7 @@ function Project() {
         {path[2]} Projects <div className='xs:hidden sm:block w-[50%] h-[1px] ml-8 styleHeading'></div>
       </h1>
 
-      {projectsData.map(project => (
+      {projectsData?.map(project => (
         <ProjectCard 
           key={project.id}
           name={project.name}
