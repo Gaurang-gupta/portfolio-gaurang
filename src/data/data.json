@@ -75,7 +75,7 @@
             "deployment": "https://airbnb-clone-flame-beta.vercel.app/"
         }
     ],
-    "ML": [
+    "ML & AI": [
         {
             "id": "1",
             "name": "Android Malware Prediction",
@@ -96,7 +96,13 @@
             "summary": "The code predicts car prices using multiple machine learning models, including linear regression, decision trees, and random forests. After evaluating their performance, the best-performing model is identified and further optimized for accuracy. This approach ensures the selection of the most effective model for precise car price prediction.",
             "github": "",
             "deployment": "https://www.kaggle.com/code/gauranggupta123/car-price-prediction"
-        }
+        },
+        {
+            "id": "4",
+            "name": "Interview Chatbot",
+            "summary": "This intelligent chatbot, built using Botpress, leverages my resume to answer interviewer's questions accurately and efficiently. It simulates a real-time interview experience by providing relevant insights about my skills, experience, and qualifications.",
+            "github": "",
+            "deployment": "https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/24/15/20241024153300-D5XH21WQ.json"
     ],
     "Tensorflow": [
         {
