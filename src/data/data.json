@@ -17,6 +17,13 @@
     ],
     "React": [
         {
+            "id": "0",
+            "name": "Expense Tracker App",
+            "summary": "The Expense Tracker App is a modern financial management tool built with TypeScript, React.js, Tailwind CSS, shadcn, and Clerk. It features a conversational AI model, integrated via Hugging Face's API, to provide intelligent answers to financial queries, enhancing user experience and engagement.",
+            "github": "https://github.com/Gaurang-gupta/expense-tracker",
+            "deployment": "https://expense-tracker-two-ruddy.vercel.app/"
+        },
+        {
             "id": "1",
             "name": "Gemini Clone",
             "summary": "This is a fully functional Gemini Clone which utilizes the Gemini API.",
