@@ -62,20 +62,27 @@
     "Next": [
         {
             "id": "1",
+            "name": "Zoom Clone",
+            "summary": "I have built a Zoom clone using Next.js, leveraging the Stream API for real-time video conferencing and Clerk for authentication. Your app enables seamless user authentication and high-quality video calls, providing a smooth and interactive communication experience. Let me know if you need a more detailed description or improvements! 🚀",
+            "github":"https://github.com/Gaurang-gupta/Yoom",
+            "deployment": "https://yoom-nine-cyan.vercel.app/"
+        },
+        {
+            "id": "2",
             "name": "Google Search Engine Clone",
             "summary": "I created a Google search engine clone using the Google Search API, built with Next.js and styled with Tailwind CSS. This project replicates Google's search functionality, providing fast, server-rendered results and a sleek, responsive design.",
             "github": "https://github.com/Gaurang-gupta/google-clone",
             "deployment": "https://google-clone-chi-six.vercel.app/"
         },
         {
-            "id": "2",
+            "id": "3",
             "name": "Uber Clone",
             "summary": "I crafted an Uber clone using Next.js, incorporating Firebase for authentication and Mapbox for mapping features. This integration ensures secure user authentication while providing a seamless navigation experience with dynamic mapping functionality. The result is a reliable platform for efficient transportation services, built on modern web technologies.",
             "github": "https://github.com/Gaurang-gupta/Uber-clone",
             "deployment": "https://uber-clone-lyart-five.vercel.app/"
         },
         {
-            "id": "3",
+            "id": "4",
             "name": "Airbnb Clone",
             "summary": "I developed an Airbnb clone using the Next.js framework, integrating detailed search functionality and a dynamic map feature. Leveraging Next.js ensures optimized performance, while the inclusion of a comprehensive search capability and interactive map enhances user experience, providing a robust platform for accommodation discovery and booking.",
             "github": "https://github.com/Gaurang-gupta/Airbnb-clone",
